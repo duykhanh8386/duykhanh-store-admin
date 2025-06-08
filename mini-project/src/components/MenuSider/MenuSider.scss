@@ -1,0 +1,35 @@
+/* MenuSider.css */
+
+
+.custom-sider-menu {
+  min-height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #f0f0f0;
+  font-size: 15px;
+  padding-top: 10px;
+
+  .ant-menu-item {
+    padding-left: 24px !important;
+
+    height: 48px;
+    display: flex;
+    align-items: center;
+
+    .anticon {
+      font-size: 18px;
+      margin-right: 12px;
+      color: #555;
+    }
+  }
+  .ant-menu-item-selected {
+  background-color: #e6f4ff !important;
+  color: #1677ff !important;
+  font-weight: 600;
+}
+.ant-menu-item:hover {
+  background-color: #f0f5ff;
+  color: #1677ff;
+}
+}
+
+
